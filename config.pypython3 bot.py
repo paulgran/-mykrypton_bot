@@ -1,4 +1,4 @@
-API_KEY = "your_api_key"
+мAPI_KEY = "your_api_key"
 API_SECRET = "your_api_secret"
 
 # Telegram
@@ -14,6 +14,7 @@ VIRTUAL_BALANCE = {
     "BTC": 0.0,
     "ETH": 0.0
 }
+
 
 # Торговля
 SYMBOLS = ["BTCUSDT", "ETHUSDT"]

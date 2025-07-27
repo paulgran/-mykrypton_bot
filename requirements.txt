@@ -1,5 +1,4 @@
-pybit
 pandas
 ta
+pybit
 requests
-matplotlib
