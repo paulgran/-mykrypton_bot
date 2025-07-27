@@ -1,0 +1,12 @@
+[Unit]
+Description=Spot Bot for Bybit
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root/spot_bot_bybit
+ExecStart=/root/spot_bot_bybit/venv/bin/python /root/spot_bot_bybit/bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
